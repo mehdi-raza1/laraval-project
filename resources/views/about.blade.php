@@ -1,1 +1,2 @@
-<h1 class="bg-danger">About Page</h1>
+
+<h1 class="bg-danger">Welcome Mr {{$Name}}</h1>
