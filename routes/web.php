@@ -23,3 +23,7 @@ Route::get('/', function () {
 // });
 
 Route::get('/about', [UserController::class, 'Demo']);
+// Get FOrm Data
+Route::post('/register', [UserController::class, 'Register']);
+// Login Route
+Route::post('/login', [UserController::class, 'Login']);
